@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background: linear-gradient(86deg, wheat, orange);
+}
+.container{
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(186deg, red, brown);
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    padding-top: 0;
+}
+.square {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0.15em;
+  }
+.square p{
+    font-weight: bold;
+    font-size: x-large;
+    display: inline-block;
+    margin-top: 0.4em;
+}
+.second-container{
+    text-align: center;
+    margin: 2em auto;
+}
+#btn{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background: linear-gradient(120deg, darkblue, cyan);
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.target.square{
+    background-color: white;
+    color: yellow;
+}
